@@ -14,7 +14,7 @@ public class duplicate_values {
   }
 
   public static void main(String[] args) {
-    int[] arr = {1, 2, 3, 3, 4, 5, 2, 6}; 
+    int[] arr = {1, 3, 3, 4, 5, 2, 6,2}; 
 
     ArrayList<Integer> duplicates = findDuplicates(arr);
 
